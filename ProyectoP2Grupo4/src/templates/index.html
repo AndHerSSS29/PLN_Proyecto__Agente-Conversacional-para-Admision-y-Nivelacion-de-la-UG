@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Asistente Virtual UG</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <img src="{{ url_for('static', filename='img/logo.png') }}" class="logo">
+    
+
+    <div>
+        <h1>Universidad de Guayaquil</h1>
+        <p>Asistente Virtual de Admisión y Nivelación</p>
+
+    </div>
+
+</header>
+
+<div class="contenedor">
+    <div class="chat">
+        <div class="mensaje bot">
+            <div class="burbuja">
+
+                ¡Bienvenido!
+                Soy un asistente virtual de la Universidad de Guayaquil.
+                <br>
+                Puedes usar las opciones definidas aqui abajo o preguntarme directamente escribiendo tu consulta en el chat.
+            </div>
+        </div>
+
+
+        <div class="opciones">
+
+            <button onclick="preguntaRapida('¿Qué requisitos necesito para la admisión?')">Requisitos</button>
+
+            <button onclick="preguntaRapida('¿Cuándo es la matrícula?')">Cronograma</button>
+
+            <button onclick="preguntaRapida('¿Qué es el curso de nivelación?')">Nivelación</button>
+
+            <button onclick="preguntaRapida('¿Cómo creo mi cuenta de aspirante?')">Crear Cuenta</button>
+
+            <button onclick="preguntaRapida('¿Qué carreras existen?')">Carreras</button>
+
+            <button onclick="preguntaRapida('ayuda')">Ayuda</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="input-area">
+
+    <input
+        type="text"
+        id="mensaje"
+        placeholder="Escribe tu pregunta...">
+
+    <button id="enviar">
+
+        Enviar
+
+    </button>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>

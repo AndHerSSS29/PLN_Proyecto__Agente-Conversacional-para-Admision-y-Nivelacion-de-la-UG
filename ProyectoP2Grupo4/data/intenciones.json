@@ -1,0 +1,516 @@
+{
+   "intenciones":[
+      {
+         "intent":"saludo",
+         "utterances":[
+            "hola",
+            "buenas",
+            "buenos dias",
+            "que tal",
+            "hola necesito ayuda",
+            "hey",
+            "como estas",
+            "que onda",
+            "buenas tardes",
+            "buenas noches",
+            "hola buenas",
+            "buenas como estas",
+            "hola quiero preguntar algo",
+            "saludos"
+         ],
+         "respuestas":[
+            "Hola, soy Alfred un asistente virtual. ¿En que puedo ayudarte?"
+         ]
+      },
+      {
+         "intent":"despedida",
+         "utterances":[
+            "adios",
+            "nos vemos",
+            "chao",
+            "me despido",
+            "nos vemos luego",
+            "hasta pronto",
+            "hasta luego",
+            "ya me voy",
+            "bye",
+            "chau"
+         ],
+         "respuestas":[
+            "Espero haber despejado tus dudas, asi que puedes volver a preguntarme alguna otra duda cuando quieras."
+         ]
+      },
+      {
+         "intent":"cumplido_al_bot",
+         "utterances":[
+            "increible"
+         ],
+         "respuestas":[
+            "Gracias por el cumplido, no dudes en preguntarme si tienes alguna duda."
+         ]
+      },
+      {
+         "intent":"mala_formulacion",
+         "utterances":[
+            "no me sirve",
+            "no es lo que buscaba",
+            "no es lo que pregunte"
+         ],
+         "respuestas":[
+            "Vaya. . . lamento mi error al no comprender tu pregunta, por favor preguntame de otra manera y talvez entienda."
+         ]
+      },
+      {
+         "intent":"duda",
+         "utterances":[
+            "duda",
+            "tengo una duda",
+            "ayudame con algo",
+            "ayudame"
+         ],
+         "respuestas":[
+            "Si tienes alguna duda o quieres ayuda con algo puedes decirmelo y respondere con la informacion con la que fui entrenado."
+         ]
+      },
+      {
+         "intent":"agradecimiento",
+         "utterances":[
+            "gracias",
+            "muchas gracias",
+            "te agradezco",
+            "excelente gracias por la info",
+            "mil gracias",
+            "que amable gracias",
+            "gracias por la ayuda",
+            "ok gracias entendido"
+         ],
+         "respuestas":[
+            "De nada, cualquier otra duda aqui estoy."
+         ]
+      },
+      {
+         "intent":"preguntar_requisitos_admision",
+         "utterances":[
+            "que requisitos necesito para la admision",
+            "cuales son los requisitos de inscripcion",
+            "que documentos piden para inscribirme",
+            "requisitos para postular a la universidad",
+            "es sobre admision",
+            "que necesito para aplicar a una carrera",
+            "requisitos generales de admision UG",
+            "que se pide para poder estudiar en la ug",
+            "cuales son los requisitos para entrar a la universidad",
+            "que necesito tener listo antes de inscribirme",
+            "requisitos basicos de admision"
+         ],
+         "respuestas":[
+            "Sobre los requisitos generales de admision, puedes encontrar informacion publicada en el portal oficial https://admision.ug.edu.ec/admision/.\nDebes crear una cuenta de aspirante y presentar la documentacion solicitada en el cronograma vigente.\nTambien puedes consultar tu duda en las paginas oficiales de la UG que puedes encontrar solo buscando en cualquier red social contenido sobre la UG."
+         ]
+      },
+      {
+         "intent":"portal_admision",
+         "utterances":[
+            "cual es el link al portal oficial de admision UG",
+            "portal oficial admision UG"
+         ],
+         "respuestas":[
+            "Este es el link al portal oficial de admision UG: https://admision.ug.edu.ec/admision/ ahi puedes encontrar informacion mas detallada de la que puedo proporcionar"
+         ]
+      },
+      {
+         "intent":"explicar_creacion_cuenta",
+         "utterances":[
+            "como creo mi cuenta de aspirante",
+            "no puedo crear mi cuenta en el portal",
+            "como me registro en admision UG",
+            "pasos para crear cuenta de usuario aspirante",
+            "como abro una cuenta en el sistema de admision",
+            "quiero registrarme como aspirante",
+            "como obtengo una cuenta nueva en el sistema",
+            "necesito ayuda para crear mi usuario",
+            "pasos para registrarme por primera vez"
+         ],
+         "respuestas":[
+            "La creacion de cuentas se gestiona exclusivamente en el Portal Oficial de Admision UG (https://admision.ug.edu.ec/admision/). Ingresa tus datos personales y numero de cedula para generar tu cuenta de aspirante."
+         ]
+      },
+      {
+         "intent":"consultar_fechas_registro",
+         "utterances":[
+            "cuando empieza el registro",
+            "cual es la fecha limite de inscripcion",
+            "fechas de registro para admision",
+            "cuando puedo registrarme segun mi cedula",
+            "cronograma de registro por ultimo digito de cedula",
+            "cuando abre el periodo de registro",
+            "fecha de inicio para registrarme",
+            "hasta cuando dura el registro de aspirantes",
+            "cuando puedo empezar a registrarme"
+         ],
+         "respuestas":[
+            "El cronograma de registro se organiza por el ultimo digito de tu documento de identidad y se publica en el portal oficial de admision. Revisa la fecha correspondiente a tu digito antes de que cierre el periodo."
+         ]
+      },
+      {
+         "intent":"consultar_cronograma_matricula",
+         "utterances":[
+            "cuando es la matricula",
+            "fechas de matriculacion ordinaria",
+            "cuando puedo matricularme",
+            "calendario de matricula UG",
+            "hasta cuando puedo matricularme",
+            "cuando cierra el periodo de matricula",
+            "fecha limite para matricularme",
+            "calendario de matriculacion",
+            "cuando termina la matricula ordinaria"
+         ],
+         "respuestas":[
+            "Las fechas de matriculacion ordinaria se comunican por el portal de admision y por los canales oficiales de Facebook e Instagram de Admision UG. Te recomendamos revisar ambos para no perder el periodo."
+         ]
+      },
+      {
+         "intent":"preguntar_curso_nivelacion",
+         "utterances":[
+            "que es el curso de nivelacion",
+            "en que consiste la nivelacion",
+            "tengo que hacer nivelacion obligatoriamente",
+            "informacion sobre el curso de nivelacion",
+            "cuanto dura la nivelacion",
+            "que actividades tiene el curso de nivelacion",
+            "es obligatorio tomar nivelacion",
+            "para que sirve el curso de nivelacion",
+            "informacion general sobre nivelacion"
+         ],
+         "respuestas":[
+            "El curso de nivelacion prepara al aspirante academicamente antes de ingresar a la carrera. Sus criterios de aprobacion, seguimiento de calificaciones y asistencia se detallan en https://admision.ug.edu.ec/nivelacion/."
+         ]
+      },
+      {
+         "intent":"consultar_aprobacion_asignaturas",
+         "utterances":[
+            "como se aprueban las materias de nivelacion",
+            "cual es la nota minima para aprobar nivelacion",
+            "criterios de aprobacion del curso de nivelacion",
+            "que pasa si pierdo una materia de nivelacion",
+            "como apruebo",
+            "sobre la aprobacion de asignaturas",
+            "cuanto debo sacar para aprobar una materia",
+            "que nota se necesita en nivelacion",
+            "que pasa si repruebo una asignatura",
+            "condiciones para aprobar el curso"
+         ],
+         "respuestas":[
+            "En cuanto a la aprobacion o no de asignaturas puedes encontrar los criterios de aprobacion de las asignaturas de nivelacion (nota minima, numero de materias, recuperaciones) detallados en la Pagina de Nivelacion UG: https://admision.ug.edu.ec/nivelacion/."
+         ]
+      },
+      {
+         "intent":"sobre_calificaciones",
+         "utterances":[
+            "quiero saber sobre las calificaciones",
+            "como funciona lo de las calificaciones",
+            "sobre las calificaciones"
+         ],
+         "respuestas":[
+            "Al finalizar cada período académico, el aprendizaje de los estudiantes será evaluado de manera individual mediante un modelo integral que valora tanto los resultados como el proceso formativo, considerando los siguientes componentes:\n60% Gestión formativa, práctica y autónoma de los aprendizajes.\n40% Acreditación y validación de los aprendizajes.\nSi quieres saber donde ver tus calificaciones solo preguntalo y te guiare."
+         ]
+      },
+      {
+         "intent":"duda_add",
+         "utterances":[
+            "otra"
+         ],
+         "respuestas":[
+            "Claro, dime cual es la duda que tienes y la respondere."
+         ]
+      },
+      {
+         "intent":"desacuerdo",
+         "utterances":[
+            "nada"
+         ],
+         "respuestas":[
+            "Bueno parece que no pude cumplir con mi proposito, lamento el incoveniente presentado pero en un futuro tendre mas informacion para tus preguntas"
+         ]
+      },
+       {
+         "intent":"acuerdo",
+         "utterances":[
+            "bien",
+            "esta bien",
+            "ok",
+            "no te preocupes"
+         ],
+         "respuestas":[
+            "Puedes continuar preguntando si tienes mas dudas."
+         ]
+      },
+      {
+         "intent":"buscar_calificaciones",
+         "utterances":[
+            "donde veo mis calificaciones de nivelacion",
+            "como consulto mis notas",
+            "no encuentro mis calificaciones en el sistema",
+            "seguimiento de mi rendimiento academico",
+            "como reviso mis notas de nivelacion",
+            "como veo",
+            "donde esta mi boleta de calificaciones",
+            "no aparecen mis notas en el sistema",
+            "consultar mi promedio en nivelacion"
+         ],
+         "respuestas":[
+            "Bien te enseñare como ver las califaciones de tu ciclo estudiantil:\n1. Entra a tu cuenta en siug\n2. Una vez dentro, en la parte superior izquierda entra en 'Academico' y luego en estudiante\n3. En el contenido debes entrar en 'calificaciones', ahi podras consultar tus calificaciones por carrera y periodo lectivo."
+         ]
+      },
+      {
+         "intent":"consultar_control_asistencia",
+         "utterances":[
+            "como se controla la asistencia en nivelacion",
+            "cuantas faltas puedo tener en nivelacion",
+            "que pasa si falto mucho al curso de nivelacion",
+            "control de asistencias UG",
+            "cuantas inasistencias estan permitidas",
+            "como se lleva el control de faltas",
+            "que pasa si me ausento varias veces",
+            "revision de faltas",
+            "faltas",
+            "registro de asistencia en nivelacion"
+         ],
+         "respuestas":[
+            "Para aprobar el Curso de Nivelación, los estudiantes deberán cursar la totalidad de las asignaturas establecidas, cumplir con un mínimo del 70% de asistencia y alcanzar un promedio mínimo de 7/10 en cada una de ellas.\nPuedes revisar sobre el manejo de asistencias en https://admision.ug.edu.ec/nivelacion/.\nRecuerda que un exceso de faltas puede afectar tu aprobacion, revisa el reglamento vigente y siempre pendiente de tu asistencia subida en el SIUG."
+         ]
+      },
+       {
+         "intent":"asis_inas",
+         "utterances":[
+            "asistencia",
+            "inasitencia",
+            "como reviso mi asistencia"
+         ],
+         "respuestas":[
+            "Bien te enseñare como ver tu asistencia/inasistencia:\n1. Entra a tu cuenta en siug\n2. Una vez dentro, en la parte superior izquierda entra en 'Academico' y luego en estudiante\n3. En el contenido debes entrar en 'Asistencia', ahi podras consultar tu asistencia por carrera y periodo lectivo.\n¿Alguna otra pregunt?" 
+         ]
+      },
+      {
+         "intent":"consultar_cupos",
+         "utterances":[
+            "cuantos cupos hay para mi carrera",
+            "como se si tengo cupo aceptado",
+            "que significa cupo aceptado",
+            "cupos",
+            "hay cupos disponibles todavia",
+            "quedan cupos disponibles para mi carrera",
+            "como confirmo si tengo cupo",
+            "hay cupos todavia este periodo",
+            "informacion sobre disponibilidad de cupos"
+         ],
+         "respuestas":[
+            "La disponibilidad de cupos y el estado de 'cupo aceptado' se visualizan en tu cuenta del portal de admision, una vez culminado el proceso de nivelacion y asignacion de carrera por lo que es recomendable estar atento cuando empiece la apertura de cupos para las materias de tu carrera."
+         ]
+      },
+      {
+         "intent":"consultar_aceptacion_carrera",
+         "utterances":[
+            "como se asigna la carrera",
+            "puedo cambiar de carrera despues de aceptarla",
+            "como acepto mi carrera asignada",
+            "que hago si no me gusta la carrera asignada",
+            "quiero estudiar ingenieria civil",
+            "quiero estudiar medicina",
+            "quiero estudiar derecho",
+            "quiero estudiar psicologia",
+            "quiero estudiar una carrera",
+            "estudiar",
+            "que carrera puedo escoger",
+            "quiero ingresar a ingenieria",
+            "quiero estudiar ciencia de datos",
+            "como confirmo la carrera asignada",
+            "es posible cambiar de carrera despues",
+            "cuales carreras estan disponibles"
+         ],
+         "respuestas":[
+            "La aceptacion de carrera se confirma desde tu cuenta en el portal de admision segun el cronograma oficial. Los cambios de carrera, si aplican, se rigen por el Reglamento de Admision de la Universidad de Guayaquil."
+         ]
+      },
+      {
+         "intent":"preguntar_documentos_necesarios",
+         "utterances":[
+            "que documentos debo escanear para inscribirme",
+            "necesito el titulo de bachiller para admision",
+            "que papeles pide la universidad",
+            "documentacion requerida para el proceso de admision",
+            "que documentos debo subir al portal",
+            "lista de documentos",
+            "que documentos necesito",
+            "necesito escanear mi titulo de bachiller",
+            "que otros papeles piden para inscribirse"
+         ],
+         "respuestas":[
+            "La lista de documentos no es algo complicado una vez que entres al portal SIUG, para saber que documentos debe subir desbes entrar a tu cuenta Siug desde el link: https://servicioenlinea.ug.edu.ec/SIUG/Account/Login.aspx?ReturnUrl=%2fSIUG%2fMODULOS%2fCOMUN%2fWEB_OFFICE_365.aspx."
+         ]
+      },
+      {
+         "intent":"apartado_SIUG",
+         "utterances":[
+            "Puedes decirme como llego hasta el apartado para subir los documentos?",
+            "apartado para subir",
+            "apartado"
+         ],
+         "respuestas": [
+            "Claro para llegar al apartado para subir tus documentos una vez ya iniciado sesion en SIUG sigue estos pasos:\n1. Te saldran anuncios de la universidad, puedes cerrarlos\n2. En la parte superior izquierda en 'Academico' debes dar click\n3. Entra en 'Estudiante' y luego a datos personales\n4. Listo, entre ahi estan todas las opciones para empezar a subir y llenar lo necesario."
+         ]
+      },
+       {
+         "intent":"carreras_UG",
+         "utterances":[
+            "cuantas carreras existen",
+            "sobre las carreras",
+            "cuantas carreras",
+            "Facultades",
+            "que carreras existen"
+         ],
+         "respuestas": [
+           "La universidad de Guayaquil cuenta con:\n-> 17 Facultades\n-> 59 carreras vigentes\n-> Modalidad: Presencial, Hibrida y en linea\nPuedes consultar toda la informacion sobre las carreras en: https://admision.ug.edu.ec/oferta-ug/"
+         ]
+      },
+      {
+         "intent":"consultar_canales_contacto",
+         "utterances":[
+            "donde puedo preguntar mis dudas",
+            "hay algun telegram de admision",
+            "como contacto a la coordinacion de admision",
+            "redes sociales oficiales de admision UG",
+            "existe un canal de telegram para dudas",
+            "donde sigo las novedades de admision",
+            "como me comunico con la coordinacion de admision",
+            "redes oficiales para consultas",
+            "redes oficiales"
+         ],
+         "respuestas":[
+            "Puedes seguir los canales oficiales: Facebook 'Admision UG' e Instagram 'Coordinacion de Admision y Nivelacion' para comunicados, o revisar el portal https://admision.ug.edu.ec/admision/."
+         ]
+      },
+      {
+         "intent":"mostrar_ayuda",
+         "utterances":[
+            "ayuda",
+            "que puedes hacer",
+            "que temas manejas",
+            "menu",
+            "opciones",
+            "que me puedes responder",
+            "en que me puedes ayudar"
+         ],
+         "respuestas":[
+            "Puedo ayudarte con los siguientes temas:\n-requisitos de admision\n-creacion de cuenta\n-fechas de registro y matricula\n-curso de nivelacion\n-aprobacion de asignaturas\n-calificaciones, asistencia, cupos, aceptacion de carrera\n-documentos necesarios\n-informacion general de la UG y canales de contacto.\n¿Sobre cual quieres preguntar?"
+         ]
+      },
+      {
+         "intent":"identidad_bot",
+         "utterances":[
+            "quien eres",
+            "como te llamas",
+            "eres un robot",
+            "eres una persona real",
+            "que eres tu",
+            "con quien hablo",
+            "eres humano"
+         ],
+         "respuestas":[
+            "Soy Alfred, un asistente virtual basado en reglas de PLN. Estoy aqui para ayudarte con dudas sobre admision, nivelacion y la Universidad de Guayaquil en general."
+         ]
+      },
+      {
+         "intent":"info_general_universidad",
+         "utterances":[
+            "que es la universidad de guayaquil",
+            "cuentame sobre la ug",
+            "informacion general de la universidad",
+            "que tan grande es la universidad de guayaquil",
+            "cuantos estudiantes tiene la ug",
+            "dame info de la universidad"
+         ],
+         "respuestas":[
+            "La Universidad de Guayaquil es la primera universidad del pais, ubicada en la mayor ciudad del Ecuador. Cuenta con 17 facultades que ofertan mas de 40 carreras de pregrado, ademas de programas de posgrado, laboratorios, bibliotecas fisicas y virtuales, y espacios de bienestar estudiantil. Mas detalles en https://www.ug.edu.ec/."
+         ]
+      },
+      {
+         "intent":"historia_universidad",
+         "utterances":[
+            "cual es la historia de la universidad de guayaquil",
+            "cuando se fundo la universidad de guayaquil",
+            "quien fundo la ug",
+            "en que año se creo la universidad",
+            "historia de la ug"
+         ],
+         "respuestas":[
+            "La Universidad de Guayaquil tiene su origen el 1 de diciembre de 1867, con la primera sesion de la Junta Universitaria del Guayas.\nSe inauguro formalmente el 9 de octubre de 1883 por Pedro Carbo, y desde 1885 se la conoce oficialmente como Universidad de Guayaquil.\nPuedes revisar la linea de tiempo completa en https://www.ug.edu.ec/historia/."
+         ]
+      },
+      {
+         "intent":"mision_vision_universidad",
+         "utterances":[
+            "cual es la mision de la universidad",
+            "cual es la vision de la ug",
+            "cual es la mision y vision de la universidad de guayaquil"
+         ],
+         "respuestas":[
+            "Mision: formar profesionales con conocimiento cientifico y responsabilidad social, mediante docencia, investigacion, vinculacion con la sociedad y gestion. Vision: consolidarse como comunidad academica y cientifica lider a nivel nacional, con impacto internacional. Fuente: https://www.ug.edu.ec/historia/."
+         ]
+      },
+      {
+         "intent":"facultades_ug",
+         "utterances":[
+            "cuantas facultades tiene la universidad",
+            "que facultades hay en la ug",
+            "lista de facultades de la universidad de guayaquil",
+            "que facultad es la mas antigua",
+            "en que facultades puedo estudiar"
+         ],
+         "respuestas":[
+            "La Universidad de Guayaquil tiene 17 facultades (la de Jurisprudencia, creada en 1868, es la mas antigua). El listado completo esta en https://www.ug.edu.ec/facultades/."
+         ]
+      },
+      {
+         "intent":"ubicacion_campus",
+         "utterances":[
+            "donde queda la universidad de guayaquil",
+            "cual es la direccion de la ug",
+            "como llego al campus de la universidad",
+            "donde esta ubicada la ug"
+         ],
+         "respuestas":[
+            "La Universidad de Guayaquil esta ubicada en la Cdla. Universitaria, Av. Delta s/n y Av. Kennedy, en Guayaquil."
+         ]
+      },
+      {
+         "intent":"redes_sociales_universidad",
+         "utterances":[
+            "cuales son las redes sociales de la universidad de guayaquil",
+            "en que redes esta la ug",
+            "tiene tiktok la universidad",
+            "sigueme en instagram de la universidad"
+         ],
+         "respuestas":[
+            "La Universidad de Guayaquil tiene cuenta oficial en Facebook, Twitter/X, Instagram, YouTube y TikTok, todas bajo el nombre 'Universidad de Guayaquil' o 'UdeGuayaquil'. Los enlaces estan al final de la pagina https://www.ug.edu.ec/."
+         ]
+      },
+      {
+         "intent":"plataformas_en_linea",
+         "utterances":[
+            "que es el siug",
+            "como entro al campus virtual",
+            "donde reviso mis materias en linea",
+            "plataformas en linea de la universidad"
+         ],
+         "respuestas":[
+            "Para tramites y servicios en linea puedes usar el SIUG (https://servicioenlinea.ug.edu.ec/siug/) y para tus clases o materias el Campus Virtual (http://campusvirtual.ug.edu.ec/)."
+         ]
+      }
+   ],
+   "fallback":{
+      "intent":"fallback",
+      "respuestas":[
+         "Lo siento, no entendi tu consulta. ¿Puedes reformularla?\nPuedes preguntarme, por ejemplo, sobre:\n1. requisitos de admision\n2. creacion de cuenta\n3. fechas de registro y matricula\n4. curso de nivelacion\n5. calificaciones, cupos, carreras o documentos necesarios."
+      ]
+   }
+}
